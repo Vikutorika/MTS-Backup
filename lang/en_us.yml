@@ -1,0 +1,218 @@
+server.load_config.language_set: |
+  Language has set to {0}
+
+server.load_config.debug_mode_on: |
+  Debug mode on
+
+server.load_config.parser_set: |
+  Parser has set to {0}
+
+server.load_config.encoding_decoding_set: |
+  Encoding / Decoding method has set to {0} / {1}
+
+server.start_server.start_twice: |
+  Server cannot start twice
+
+server.start_server.starting: |
+  Starting the server
+
+server.start_server.start_fail: |
+  Fail to start the server
+
+server.start_server.pid_info: |
+  Server is running at PID {0}
+
+server.stop.stop_twice: |
+  Server cannot stop when terminated
+
+server.stop.stop_fail: |
+  Error stopping server, force the server to stop now
+
+server.stop.process_killed: |
+  Process killed
+
+server.send.send_when_stoped: |
+  Server has been terminated, cannot send command to its stdin
+
+server.receive.wait_stop: |
+  Waiting for server process to stop
+
+server.receive.decode_fail: |
+  Fail to decode text "{0}"
+
+server.on_server_stop.show_stopcode: |
+  Server process stopped with code {0}
+
+server.on_server_stop.stop_by_itself: |
+  Server stopped by itself
+
+server.tick.pre_parse_fail: |
+  Fail to pre parse text from stdout of the server, use original text
+
+server.run.error: |
+  Error ticking MCDR
+
+server.run.user_interrupted: |
+  MCDR has been interrupted by user
+
+server.run.server_stop: |
+  Server stopped
+
+server.run.bye: |
+  bye
+
+server.run.stop_error: |
+  Error stopping MCDR, ignored that and exiting
+
+server.console_input.parse_fail: |
+  Error parsing console command "{0}"
+
+server.console_input.error: |
+  Error ticking console thread
+
+server.react.error: |
+  Error processing reactor {0}
+
+command_manager.help_message: |
+  §7!!MCDR§r: Show this message
+  §7!!MCDR reload§r: Show reload command help message
+  §7!!MCDR status§r: Show MCDR status
+  §7!!MCDR permission§r: Show permission command help message
+
+command_manager.help_message_reload: |
+  §7!!MCDR reload plugin§r: Reload all plugins
+  §7!!MCDR reload config§r: Reload config file
+  §7!!MCDR reload permission§r: Reload permission file
+  §7!!MCDR reload all§r: Reload everything above
+
+command_manager.help_message_permission: |
+  §7!!MCDR permission list §e[<level>]§r: List all player's permission. Only list permission level §e[<level>]§r if §e[<level>]§r has set
+  §7!!MCDR permission set §b<player>§r §e<level>§r: Set the permission level of §b<player>§r to §e<level>§r
+  §7!!MCDR permission remove §b<player>§r: Remove §b<player>§r from the permission database
+  §7!!MCDR permission setdefault §e<level>§r: Set the default permission level to §e<level>§r
+
+command_manager.command_not_found: |
+  Command not found, type "§7{0}§r" to see help
+
+command_manager.reload_plugins.load_fail: |
+  §cFail§r to reload plugin
+
+command_manager.reload_config.load_fail: |
+  §cFail§r to reload config file
+
+command_manager.reload_config.load_success: |
+  Config file reloaded §asuccessfully§r
+
+command_manager.reload_permission.load_fail: |
+  §cFail§r to reload permission file
+
+command_manager.reload_permission.load_success: |
+  Permission file reloaded §asuccessfully§r
+
+command_manager.invalid_permission_level: |
+  §cInvalid permission level§r
+
+command_manager.invalid_player_name: |
+  §cInvalid player name§r
+
+command_manager.remove_player_permission.player_removed: |
+  Player §b{0}§r has been removed
+
+command_manager.list_permission.show_default: |
+  Default permission level: §e{0}§r
+
+command_manager.print_mcdr_status.online: |
+  Online
+
+command_manager.print_mcdr_status.offline: |
+  §7Offline§r
+
+command_manager.print_mcdr_status.line1: |
+  §l{0}§r version: §7{1}§r
+
+command_manager.print_mcdr_status.line2: |
+  Server status: §7{0}§r
+
+command_manager.print_mcdr_status.line3: |
+  Server startup: §7{0}§r
+
+command_manager.print_mcdr_status.line4: |
+  Rcon: {0}
+
+command_manager.print_mcdr_status.line5: |
+  Plugin count: §7{0}§r
+
+command_manager.mcdr_help_message: |
+  MCDR control command
+
+permission_manager.load.load_fail: |
+  Fail to load permission file {0}, using default empty data
+
+permission_manager.set_default_permission_level.done: |
+  The default permission level has set to {0}
+
+permission_manager.set_permission_level.done: |
+  The permission level of player {0} has set to {1}
+
+plugin_manager.load_plugin.load_fail: |
+  Fail to load plugin {0}
+
+plugin_manager.load_plugin.load_success: |
+  Plugin {0} loaded
+
+plugin_manager.unload_plugin.unload_fail: |
+  Fail to unload plugin {0}
+
+plugin_manager.unload_plugin.unload_success: |
+  Plugin {0} unloaded
+
+plugin_manager.reload_plugin.reload_fail: |
+  Fail to reload plugin {0}
+
+plugin_manager.reload_plugin.reload_success: |
+  Plugin {0} reloaded
+
+plugin_manager.load_plugins.loading: |
+  Loading plugins
+
+plugin_manager.load_plugins.info_loaded: |
+  Loaded: §7{0}§r plugins
+
+plugin_manager.load_plugins.info_unloaded: |
+  Unloaded: §7{0}§r plugins
+
+plugin_manager.load_plugins.info_reloaded: |
+  Reloaded: §7{0}§r plugins
+
+plugin_manager.load_plugins.info_fail: |
+  Failed: §7{0}§r plugins
+
+plugin_manager.load_plugins.info_none: |
+  No plugin was found
+
+rcon_manager.connect.connection_fail: |
+  Rcon connection failed: {0}
+
+rcon_manager.connect.connected: |
+  Rcon connected
+
+rcon_manager.connect.wrong_password: |
+  Rcon password is not correct, connection failed
+
+rcon_manager.disconnect.disconnected: |
+  Rcon disconnected
+
+server_status.running: |
+  Running
+
+server_status.stopping_by_itself: |
+  Stopping by itself
+
+server_status.stopping_by_plugin: |
+  Stopping by plugin
+
+server_status.stopped: |
+  Stopped
+
+general_reactor.permission_denied: |
+  Permission denied

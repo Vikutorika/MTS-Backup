@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "36e7b5ee-eb91-38ce-a5de-1b8e5f634afc",
+    "name": "DogerDog",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5aca014f-f927-3828-b0be-b26ba36ec6d0",
+    "name": "qwer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "515359a9-16a0-3518-971b-e179829db5c2",
+    "name": "blacorz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f58342ef-a17f-31a1-a3c5-59853a80d241",
+    "name": "UBIthepotato",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "94c478a7-bbe7-3edd-8496-88793117f911",
+    "name": "GamerNoTitle",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

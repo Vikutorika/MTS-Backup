@@ -1,0 +1,13 @@
+mirror/server/world/*
+log/*
+mirror/log/*
+flat/log/*
+*.zip
+log/*
+server/logs
+mirror/server/logs
+flat/server/logs
+qb_multi/*
+server/debug/*
+mirror/server/debug/*
+flat/server/debug/*

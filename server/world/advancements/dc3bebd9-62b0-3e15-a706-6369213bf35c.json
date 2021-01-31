@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-08-08 14:56:47 +0000",
+      "minecraft:mushroom_fields": "2020-08-08 14:57:42 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

@@ -1,0 +1,70 @@
+listeners:
+- query_port: 44660
+  motd: |
+    §b§lMTS §a§lBungeeCord Port §d§l.12 - 1.16.1
+    §c§l请注意，这是一个实验性入口，可能实装可能删除！
+  tab_list: GLOBAL_PING
+  query_enabled: true
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: Survival
+  ping_passthrough: false
+  priorities:
+  - Survival
+  - Mirror
+  - Flat
+  bind_local_address: true
+  host: 0.0.0.0:44660
+  max_players: 20
+  tab_size: 60
+  force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+stats: 843ed1a4-aaff-45e9-923f-9eae7b520000
+player_limit: -1
+ip_forward: true
+groups:
+  md_5:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: true
+prevent_proxy_connections: false
+online_mode: false
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  survival:
+    motd: §bWelcome to §6§lMultiple Technology Server
+    address: 127.0.0.1:28574
+    restricted: false
+  mirror:
+    motd: §bWelcome to §9§lMultiple Technology Mirror
+    address: 127.0.0.1:28575
+    restricted: false
+  flat:
+    motd: §bWelcome to §d§lMultiple Technology Flat
+    address: 127.0.0.1:28576
+    restricted: false
+  EFS:
+    motd: None
+    address: efs.bili33.top:37528
+    restricted: false
+  EFS-Mirror:
+    motd: None
+    address: efs.bili33.top:37529
+    restricted: false

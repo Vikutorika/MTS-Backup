@@ -1,0 +1,12 @@
+{
+    "path": "./mirror/",
+    "world": ["world"],
+    "command": "python3 MCDReforged.py",
+    "remote":{
+        "enable": true,
+        "address": "127.0.0.1",
+        "secret": "bili33@WPX.Gamer",
+        "port": 33336,
+        "command": true
+    }
+}

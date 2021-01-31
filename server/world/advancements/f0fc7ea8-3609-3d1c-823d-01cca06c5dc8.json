@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:warm_ocean": "2020-04-14 04:15:31 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

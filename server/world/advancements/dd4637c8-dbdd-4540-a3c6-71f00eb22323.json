@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2020-04-09 01:30:07 +0000",
+      "minecraft:river": "2020-04-05 01:28:00 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

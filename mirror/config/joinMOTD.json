@@ -1,0 +1,10 @@
+{
+	"serverName":"MTS",
+	"mainServerName":"Multiple Technology Server",
+	"serverList":
+	[
+		"Survival",
+		"Mirror",
+		"Flat"
+	]
+}

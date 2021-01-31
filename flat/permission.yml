@@ -1,0 +1,50 @@
+# This is the permission config and storage file of MCDReforged
+# It is used to storage permission level stuffs of MCDR
+# Available levels (top to down):
+# - admin
+# - helper
+# - user
+# - guest
+
+
+default_level: user
+
+admin:
+- Fallen_Breath
+- GamerNoTitle
+helper:
+user:
+- UBIthepotato
+- Slime
+- Sand
+- huqiang
+- load1
+- load2
+- Load3
+- kun
+- a
+- Mobs
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- GODGEnX
+- ThisNEKKO
+- '9'
+- Test
+- Stone
+- Tree
+- tree2
+- eagleworld
+- Vil
+- Mob
+- Yang_Shu_
+- Wansn07
+- ForLovey
+- QAQ
+- qwer
+guest:

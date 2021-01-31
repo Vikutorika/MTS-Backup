@@ -1,0 +1,7 @@
+{
+	"availableFeatures":
+	[
+		"newLight",
+		"optimizeVoxelCode"
+	]
+}

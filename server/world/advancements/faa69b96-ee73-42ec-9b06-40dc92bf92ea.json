@@ -1,0 +1,49 @@
+{
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-04-05 01:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-04-05 01:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-04-05 01:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-04-03 15:02:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-04-05 01:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert_hills": "2020-04-03 06:28:59 +0000",
+      "minecraft:desert": "2020-04-03 06:28:53 +0000",
+      "minecraft:dark_forest": "2020-04-03 11:05:09 +0000",
+      "minecraft:river": "2020-04-05 06:01:15 +0000",
+      "minecraft:plains": "2020-04-04 08:44:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-04-05 01:45:18 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 1976
+}

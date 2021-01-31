@@ -1,0 +1,20 @@
+{
+    "used.diamond_pickaxe": {
+        "scoreboard_name":"digging",
+        "stats_category": "used",
+        "stats_content": "diamond_pickaxe",
+        "display_name": "§6掏空世界小能手"
+    },
+    "Flying": {
+        "scoreboard_name":"flying",
+        "stats_category": "custom",
+        "stats_content": "aviate_one_cm",
+        "display_name": "§6飞姬王"
+    },
+    "Deaths": {
+        "scoreboard_name":"deaths",
+        "stats_category": "custom",
+        "stats_content": "deaths",
+        "display_name": "§6最强亡者"
+    }
+}
